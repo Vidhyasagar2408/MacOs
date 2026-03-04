@@ -1,8 +1,8 @@
 .window {
-  height: 200px;
-  width: 300px;
   background-color: black;
   border-radius: 0.5rem;
+  overflow: hidden;
+  height: 100%;
   font-family:
     system-ui,
     -apple-system,
@@ -56,5 +56,9 @@
         }
     }
 
+  }
+  .main-content{
+    height: 100%;
+    width: 100%;
   }
 }
