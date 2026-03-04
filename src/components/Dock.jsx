@@ -21,8 +21,8 @@ const Dock = () => {
       <div className="icon mail">
         <i class="ri-mail-fill"></i>
       </div>
-      <div className="icon linkedin">
-        <i class="ri-linkedin-box-fill"></i>
+      <div className="icon links">
+        <i class="ri-links-line"></i>
       </div>
       <div className="icon terminal">
         <i class="ri-terminal-line"></i>

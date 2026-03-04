@@ -67,7 +67,7 @@
         rgb(66, 52, 255)
       );
     }
-    .ri-linkedin-box-fill {
+    .ri-links-line {
       background: linear-gradient(
         to bottom,
         rgb(105, 94, 255),
@@ -85,6 +85,6 @@
 }
 
 .dock .icon:hover + .icon i,
-.icon:has(+.icon:hover) i {
+.icon:has(+ .icon:hover) i {
   transform: scale(1.1) translateY(-20%);
 }
