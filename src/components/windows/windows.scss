@@ -1,4 +1,6 @@
 .window {
+  display: flex;
+  flex-direction: column;
   background-color: black;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -58,7 +60,8 @@
 
   }
   .main-content{
-    height: 100%;
+    flex: 1;
+    min-height: 0;
     width: 100%;
   }
   *::-webkit-scrollbar{

@@ -5,7 +5,9 @@ import Github from "./components/windows/github.jsx";
 import Note from "./components/windows/Note.jsx";
 import Resume from "./components/windows/resume.jsx";
 import Spotify from "./components/windows/spotify.jsx";
+import Cli from "./components/windows/cli.jsx";
 function App() {
+  
   return (
     <main>
       <Nav />
@@ -14,6 +16,7 @@ function App() {
       <Note />
       <Resume />
       <Spotify />
+      <Cli />
     </main>
   );
 }
