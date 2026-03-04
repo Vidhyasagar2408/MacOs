@@ -1,0 +1,60 @@
+.window {
+  height: 200px;
+  width: 300px;
+  background-color: black;
+  border-radius: 0.5rem;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  color: white;
+  font-weight: 600;
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-inline: 0.5rem;
+    padding-block: 0.4rem;
+    background-color: #353535;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom: rgba(245, 245, 245, 0.459) 1px solid;
+
+    .dots {
+      display: flex;
+      gap: 0.25rem;
+
+      .dot {
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+      }
+
+      .red {
+        background-color: red;
+      }
+      .yellow {
+        background-color: yellow;
+      }
+      .green {
+        background-color: green;
+      }
+    }
+
+    .title{
+        p{
+            font-size: 0.85rem;
+        }
+    }
+
+  }
+}
