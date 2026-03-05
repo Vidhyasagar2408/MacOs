@@ -1,11 +1,11 @@
 import "./app.scss";
 import Dock from "./components/Dock.jsx";
 import Nav from "./components/Nav.jsx";
-import Github from "./components/windows/github.jsx";
+import Github from "./components/windows/Github.jsx";
 import Note from "./components/windows/Note.jsx";
-import Resume from "./components/windows/resume.jsx";
-import Spotify from "./components/windows/spotify.jsx";
-import Cli from "./components/windows/cli.jsx";
+import Resume from "./components/windows/Resume.jsx";
+import Spotify from "./components/windows/Spotify.jsx";
+import Cli from "./components/windows/Cli.jsx";
 import { useState } from "react";
 function App() {
   const [windowState, setWindowState] = useState({
