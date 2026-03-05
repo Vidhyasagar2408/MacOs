@@ -52,22 +52,21 @@
       }
     }
 
-    .title{
-        p{
-            font-size: 0.85rem;
-        }
+    .title {
+      p {
+        font-size: 0.85rem;
+      }
     }
-
   }
-  .main-content{
+  .main-content {
     flex: 1;
     min-height: 0;
     width: 100%;
   }
-  *::-webkit-scrollbar{
+  *::-webkit-scrollbar {
     width: 8px;
   }
-  *::-webkit-scrollbar-thumb{
+  *::-webkit-scrollbar-thumb {
     background-color: rgba(106, 255, 0, 0.225);
   }
 }
