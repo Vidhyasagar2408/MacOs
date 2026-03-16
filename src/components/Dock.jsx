@@ -46,7 +46,10 @@ const Dock = ({ setWindowState }) => {
       </div>
       <div
         onClick={() => {
-          window.open("https://mail.google.com/mail/u/0/#inbox", "_blank");
+          window.open(
+            "https://mail.google.com/mail/?view=cm&fs=1&to=vs1522250@gmail.com",
+            "_blank",
+          );
         }}
         className="icon mail"
       >
